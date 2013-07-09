@@ -1,0 +1,5 @@
+name: Kibin Labs
+pygments: true
+
+source: ./src
+destination: ./site
