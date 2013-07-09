@@ -45,7 +45,7 @@ html.ie #author-info {behavior: url("http://localhost/Kibin/Frontend-static/PIE.
 
 </head>
 
-<body class="home page page-id-24 page-template page-template-onecolumn-page-php logged-in admin-bar  customize-support">
+<body class="{{ page.id }} page page-id-24 page-template page-template-onecolumn-page-php logged-in admin-bar  customize-support">
 
     <div class="header-bg"></div>
 
@@ -96,19 +96,9 @@ html.ie #author-info {behavior: url("http://localhost/Kibin/Frontend-static/PIE.
 
         <a name="top" id="top"></a>
 
-        <div id="content" class="sixteen columns">
-            <div id="post-24" class="post-24 page type-page status-publish hentry">
-                
-                
-                <div class="entry-content">
-                
-                    {{content}}
-                
-                </div><!-- .entry-content -->
-                    
-            </div><!-- #post-## -->
-                    
-        </div><!-- /.columns (#content) -->
+
+        {{content}}
+        <!-- /.columns (#content) -->
                     
         <div class="clear"></div>
 
