@@ -30,7 +30,7 @@ License URI: http://www.opensource.org/licenses/gpl-license.php
 	#Misc
 */
 
-/* Colors
+/* g
 	#Red = #e63323
 	==================================================
 */
@@ -83,6 +83,10 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+body.page{
+	background: url(../images/page-bg.png) repeat-x left top;	
+}
+
 /* @end */
 
 
@@ -124,12 +128,18 @@ body .header-bg{
 /* Footer Styles */
 
 #footer {
-	border-top: 1px solid #d6d6d6;
-	font-size: .9em;
+	font-size: 12px;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: #333;	
 }
-#footer.noborder {
-	border: none;
-	padding-top: 0;
+
+#footer .tnc{
+	float:left;
+}
+
+#footer .copyright{
+	float: right;
 }
 
 #footer #credits {
@@ -337,7 +347,7 @@ a.themeauthor {
 
 /* #Links
 ================================================== */
-	a, a:visited {text-decoration: underline; outline: 0; }
+	a, a:visited {text-decoration: none; outline: g0; color: #e73229;}
 	a:hover, a:focus { color: #000; text-decoration: none;}
 	p a, p a:visited { line-height: inherit; }
 	
